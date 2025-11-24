@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    background: var(--color-bg_shade);
+    justify-content: center;
+    display: block;
+}
+
+.footer__buttons {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    text-decoration: none;
+    list-style: none;
+    gap: 33px;
+    justify-content: center;
+}
+
+.footer__button {
+    background: transparent;
+    border: none;
+}
+
+.footer__button svg{
+    fill: var(--color-primary_grey);
+}
+
+.other-info {
+    display: flex;
+    align-items: center;
+    color: var(--color-primary_grey);
+    background: var(--color-bg);
+    justify-content: center;
+    padding: 3px 0;
+}

@@ -1,0 +1,59 @@
+.support {
+    background: url('../images/webp/support.webp') center / cover no-repeat;
+    padding: 60px calc(50% - 555px) 60px;
+    margin-bottom: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.support::before {
+    content: '';
+    background-color: rgba(29, 47, 48, 0.75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.support__title, .support__description, .form {
+    z-index: 2;
+    position: relative;
+}
+
+.support__title {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: var(--color-primary);
+    max-width: 308px;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.support__description {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-primary);
+    max-width: 825px;
+    margin-bottom: 4px;
+}
+
+.support__button {
+    background-color: var(--color-primary_green);
+    color: var(--color-bg_shade);
+    padding: 10.5px 28.5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: 0;
+    z-index: 1;
+}
+
+label {
+    color: var(--color-primary);
+}

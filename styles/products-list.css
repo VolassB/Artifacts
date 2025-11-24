@@ -1,0 +1,25 @@
+.products-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 57px;
+    margin-top: 26px;
+}
+
+.products-list__text {
+    font-family: var(--font-family-title);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--color-primary);
+    max-width: 51px;
+    margin-bottom: 4px;
+}
+
+.product-list-link1 svg, .product-list-link2 svg {
+    transition: all 0.3s ease-in-out;
+    fill: var(--color-primary_grey);
+    margin-top: 13px;
+}

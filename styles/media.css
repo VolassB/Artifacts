@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+
+    .header {
+        padding: 20px 32px 20px 32px;
+    }
+
+    .products {
+        gap: 20px;
+        padding: 60px 33px 12px 33px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-product {
+        flex: 1 1 calc(33.333% - 20px);
+    }
+
+    .card-product:last-child {
+        flex-grow: 0;
+    }
+
+    .card-product__title {
+        display: none;
+    }
+
+    .natural-artifacts {
+        padding: 60px 33px 139px 33px;
+    }
+
+    .new-artifacts {
+        padding: 37px 33px 60px;
+    }
+
+    .new-artifacts__container-img {
+        overflow: hidden;
+        padding: 30px 33px 30px 33px;
+        flex: 1 1;
+        min-width: 254px;
+    }
+
+    .new-artifacts__container  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .support {
+        padding: 30px 50px 44px 30px;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .card-product {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .card-product:last-child {
+        flex-grow: 1;
+    }
+
+    .card-product__title {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        padding: 18px 32px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .header__burger span {
+        display: flex;
+        background-color: var(--color-primary);
+        width: 18px;
+        height: 2px;
+        position: relative;
+    }
+
+    .header__burger span::before,
+    .header__burger span::after {
+        content: '';
+        background-color: var(--color-primary);
+        width: 18px;
+        height: 2px;
+        position: absolute;
+    }
+
+    .header__burger span::before {
+        transform: rotate(0);
+        top: 4px;
+    }
+
+    .header__burger span::after {
+        transform: rotate(0);
+        top: -4px;
+    }
+
+    .natural-artifacts {
+        padding: 50px 32px 54px;
+    }
+
+    .natural-artifacts__title {
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 543.98px) {
+    .card-product {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .card-product:last-child {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .natural-artifacts__description {
+        display: none;
+    }
+
+    .new-artifacts__container-img {
+        padding: 0;
+    }
+
+    .new-artifacts__text {
+        padding: 30px 33px;
+    }
+
+    .support__title {
+        max-width: 240px;
+        margin-bottom: 44px;
+    }
+
+    .support__description {
+        display: none;
+    }
+
+}

@@ -1,0 +1,83 @@
+/* hover */
+.header__link:hover {
+    color: var(--color-primary_green);
+}
+
+.natural-artifacts__link:hover {
+    color: #91AC46;
+}
+
+.card-product__deatils:hover {
+    background-color: #688B05;
+    color: var(--color-bg_shade);
+}
+
+.new-artifacts__link:hover {
+    color:#688B05;
+}
+
+/* hover svg */
+.header__button:hover svg path{
+    stroke: #91AC46;
+}
+
+.natural-artifacts__link:hover svg {
+    fill: #91AC46;
+    transform: translate(10px, 0);
+}
+
+.product-list-link1:hover svg {
+    fill: var(--color-primary_green);
+    transform: translate(-10px, 0);
+}
+
+.product-list-link2:hover svg {
+    fill: var(--color-primary_green);
+    transform: translate(10px, 0);
+}
+
+.new-artifacts__link:hover svg {
+    fill: #688B05;
+    transition: all 0.3s ease-in-out;
+    transform: translate(10px, 0);
+}
+
+.footer__button:hover svg{
+    fill: var(--color-primary_green);
+}
+
+/* focus */
+.focus:focus {
+    outline: #83A440 1px solid;
+}
+
+.card-product__deatils:focus {
+    outline: var(--color-primary_green) 1px solid;
+}
+
+/* focus svg */
+.focus-svg:focus svg {
+    outline: #83A440 1px solid;
+}
+
+/* active */
+.header__link:active {
+    color: #688B05;
+}
+
+.natural-artifacts__link:active {
+    color: #91AC46;
+}
+
+.card-product__deatils:active {
+    background-color: #688B05;
+}
+
+/* active svg */
+.active-svg:active svg {
+    fill: #688B05;
+}
+
+.header__button:active svg path {
+    stroke: #688B05;
+}

@@ -19,7 +19,7 @@
     z-index: 1;
 }
 
-.natural-artifacts__title, .natural-artifacts__description, .natural-artifacts__link, .products {
+.natural-artifacts__title, .natural-artifacts__description, .natural-artifacts__link {
     z-index: 2;
     position: relative;
 }

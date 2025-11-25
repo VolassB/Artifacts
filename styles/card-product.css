@@ -4,6 +4,11 @@
     padding: 60px calc(50% - 555px) 57px;
 }
 
+.products-products-list {
+    display: flex;
+    flex-direction: column;
+}
+
 .card-product{
     border: var(--color-bg_shade) 1px solid;
     flex: 1 1 calc(25% - 20px);
